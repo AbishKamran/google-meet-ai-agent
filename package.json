@@ -1,0 +1,23 @@
+{
+  "name": "google-meet-bot",
+  "version": "1.0.0",
+  "description": "Automated Google Meet bot with screen sharing capabilities",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "tts": "node generate_tts_standalone.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "fs-extra": "^11.3.0",
+    "google-meet-bot": "file:",
+    "openai": "^4.97.0",
+    "playwright": "^1.40.0",
+    "say": "^0.16.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
