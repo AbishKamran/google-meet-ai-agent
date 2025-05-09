@@ -4,37 +4,37 @@ Google Meet Agent is a smart automation tool that uses Playwright and OpenAI's T
 
 <br> 
 
-## ✨ FEATURES
+## ✨ Features
 
-### 🎤 TEXT-TO-SPEECH AUDIO
+### 🎤 Text To Speech Audio
 
 Uses OpenAI TTS to convert text into natural-sounding speech and plays it in the meeting.
 
-### 📅 AUTO JOIN GOOGLE MEET
+### 📅 Auto Join Google Meet
 
 Automatically opens a meeting link, detects the join button, and clicks it—no user input needed.
 
-### 🖥️ SCREEN SHARING
+### 🖥️ Screen Sharing
 
 Automates the “Present now” flow to share your entire screen.
 
-### ⏱️ DYNAMIC TIMED ACTIONS
+### ⏱️ Dynamic Timed Actions
 
 Adds smart delays based on speech length and interface load times.
 
-### 🔄 KEEP-ALIVE MECHANISM
+### 🔄 Keep- Alive Mechanism
 
 Prevents disconnection by interacting with the page periodically.
 
-### 🛠️ PERSISTENT GOOGLE LOGIN
+### 🛠️ Persistent Google Login
 
 Reuses your session across runs using a saved browser profile.
 
 <br>
 
-## 🚀 SETUP
+## 🚀 Setup
 
-### CLONE THE REPOSITORY
+### Clone The Repository
 
 ```bash
 git clone https://github.com/yourusername/google-meet-agent.git
@@ -61,7 +61,7 @@ The bot will:
 
 <br>
 
-## 🧠 HOW IT WORKS
+## 🧠 How It Works
 - Uses playwright.chromium.launchPersistentContext() to reuse your Google login.
 - Leverages OpenAI’s TTS to generate .wav audio.
 - Automates browser behavior (clicking buttons, navigating) just like a human would.
