@@ -69,5 +69,5 @@ The bot will:
 
 <br>
 
-🧑‍💻 Author
+🧑‍💻 Author-
 Made with ❤️ by Abish
