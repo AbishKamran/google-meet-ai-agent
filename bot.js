@@ -863,7 +863,7 @@ async function launchBrowser() {
       
       // Navigate to demo app
       await speakAndDo('I will now navigate to the demonstration dashboard', async () => {
-        await page.goto('https://dashboard.howbee.in/login', { waitUntil: 'networkidle', timeout: 60000 });
+        await page.goto('https://dashboard.demo.com/login', { waitUntil: 'networkidle', timeout: 60000 });
       });
       
       // Demo interactions
